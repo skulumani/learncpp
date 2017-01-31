@@ -2,6 +2,10 @@
 
 My attempt at learnin C++ and gtest unit testing
 
+## Using Eigen
+
+`g++ -I /usr/include/eigen3/ -o app eigen_test.cpp`
+
 ## Installing [gtest](https://github.com/google/googletest) framework
 
 1. Install `sudo apt-get install libgtest-dev`
