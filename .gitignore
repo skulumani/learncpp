@@ -1,8 +1,23 @@
 
 # Created by https://www.gitignore.io/api/linux,c++,macos,windows
+*
 !.gitignore
 !*.cpp
 !*/
+!*.txt
+
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# End of https://www.gitignore.io/api/cmake
 
 ### Linux ###
 *~
